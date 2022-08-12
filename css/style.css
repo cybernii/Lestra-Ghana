@@ -1,0 +1,368 @@
+/* 
+---01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights
+Default: 400
+
+- Line heights
+Default:1
+
+
+
+--- 02 COLORS
+
+- Primary:#e67e22
+
+- Tints: #fdf2e9
+- Shades:
+- Accents:
+- Greys
+#555
+
+--- 05 SHADOWS
+
+--- 06 BORDER-RADIUS
+
+--- 07 WHITESPACE
+
+- - SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: #e8f7fd;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+/********************************/
+/*  GENERAL REUSABLE COMPONENTS */
+/********************************/
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--2--cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3--cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4--cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.heading-primary {
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 1.05;
+  color: #333;
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+
+  /* Put transition on original "state" */
+  transition: background-color 0.3s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #1db1eb;
+  color: #fff;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #1a9fd4;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #fff;
+  color: #555;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #e8f7fd;
+
+  /* Trick to add border inside */
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
+
+/********************************/
+/* HEADER */
+/********************************/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #e8f7fd; */
+  /* background-color: #d2effb; */
+
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+
+.logo {
+  height: 10rem;
+}
+
+/********************************/
+/* NAVIGATION */
+/********************************/
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 2rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #1a9fd4;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #1db1eb;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #1a9fd4;
+}
+
+/********************************/
+/* HERO SECTION */
+/********************************/
+
+.section-hero {
+  /* background-color: #e8f7fd; */
+  /* background-color: #d2effb; */
+  padding: 4.8rem 0 9.6rem 0;
+  /* height: 100vh; */
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.hero-img {
+  width: 100%;
+  border-radius: 2rem;
+}
+
+/********************************/
+/* ABOUT US SECTION */
+/********************************/
+.about-us {
+  padding: 9.6rem 0;
+  background-color: #fff;
+}
+
+.heading-secondary {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1.05;
+  color: #333;
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.about--text {
+  font-size: 1.8rem;
+  line-height: 2;
+}
+
+.about-btn {
+  margin-top: 3.2rem;
+  margin-left: 3.2rem;
+}
+
+/********************************/
+/* SPECIAL SECTION */
+/********************************/
+
+.special {
+  background-color: #fff;
+  padding: 9.6rem 0;
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.special--svg {
+  stroke: #1db1eb;
+  width: 3.2rem;
+  height: 3.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.special-subtitle {
+  margin-bottom: 1.6rem;
+  font-size: 2rem;
+}
+
+.special-text {
+  font-size: 1.8rem;
+  line-height: 1.7;
+}
+
+/********************************/
+/* SERVICES SECTION */
+/********************************/
+.services {
+  /* background-color: #d2effb; */
+  padding: 9.6rem 0;
+}
+
+.service-content {
+  margin-top: 5rem;
+}
+
+.service-title {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.05;
+  color: #333;
+  letter-spacing: -0.5px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.cleaning-img {
+  width: 100%;
+  border-radius: 2rem;
+}
+
+.service-text-box {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.service-list {
+  margin-left: 2rem;
+  list-style: square;
+  text-decoration: none;
+  font-size: 1.8rem;
+  margin: 2rem;
+}
+
+.btn-service {
+  margin-top: 2rem;
+}
+
+/********************************/
+/* FEATURED IN SECTION */
+/********************************/
+
+.section-clients {
+  padding: 4.8rem 0 3.2rem 0;
+}
+
+.heading-clients {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logos img {
+  height: 13rem;
+  filter: grayscale(20);
+  /* filter: brightness(0); */
+  /* opacity: 50%; */
+}
