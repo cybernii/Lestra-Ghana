@@ -10,7 +10,7 @@
   justify-content: center;
   width: 100rem;
   margin: auto;
-  padding: 10rem;
+  padding: 15rem;
 }
 
 .services-hero-title {
@@ -21,6 +21,17 @@
 }
 
 /********************************/
+/*  ABOUT US  */
+/********************************/
+
+.about-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/cleaning/cleaning\ header.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+/********************************/
 /*  CLEANING SERVICE */
 /********************************/
 
@@ -28,8 +39,7 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../img/cleaning/cleaning\ header.jpg);
   background-size: cover;
-  /* background-repeat: no-repeat; */
-  background-position: 0 55rem;
+  background-position: center center;
 }
 
 /********************************/
@@ -40,8 +50,7 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../img/landscape/landscape-header.jpg);
   background-size: cover;
-  /* background-repeat: no-repeat; */
-  background-position: 0 55rem;
+  background-position: center center;
 }
 
 /********************************/
@@ -52,8 +61,7 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../img/handyman/handy-header.jpg);
   background-size: cover;
-  /* background-repeat: no-repeat; */
-  background-position: 0 55rem;
+  background-position: center center;
 }
 
 /********************************/
@@ -63,6 +71,5 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../img/fumigation/fumigation-header.jpg);
   background-size: cover;
-  /* background-repeat: no-repeat; */
-  background-position: 0 55rem;
+  background-position: center center;
 }
