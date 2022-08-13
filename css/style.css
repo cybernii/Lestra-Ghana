@@ -42,6 +42,7 @@ Default:1
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
   background-color: #e8f7fd;
 }
 
@@ -589,6 +590,7 @@ body {
 }
 
 .footer-nav {
+  font-size: 1.6rem;
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -598,7 +600,7 @@ body {
 .footer-link:link,
 .footer-link:visited {
   text-decoration: none;
-  font-size: 1.6rem;
+
   color: #767676;
   transition: all 0.3s;
 }

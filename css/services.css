@@ -1,0 +1,68 @@
+/********************************/
+/*  GENERAL REUSABLE COMPONENTS */
+/********************************/
+.services-hero-text-box {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  width: 100rem;
+  margin: auto;
+  padding: 10rem;
+}
+
+.services-hero-title {
+  font-size: 6rem;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 200;
+}
+
+/********************************/
+/*  CLEANING SERVICE */
+/********************************/
+
+.cleaning-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/cleaning/cleaning\ header.jpg);
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-position: 0 55rem;
+}
+
+/********************************/
+/*  LANDSCAPING SERVICE */
+/********************************/
+
+.landscape-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/landscape/landscape-header.jpg);
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-position: 0 55rem;
+}
+
+/********************************/
+/*  HANDYMAN SERVICE */
+/********************************/
+
+.handyman-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/handyman/handy-header.jpg);
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-position: 0 55rem;
+}
+
+/********************************/
+/*  FUMIGATION SERVICE */
+/********************************/
+.fumigation-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/fumigation/fumigation-header.jpg);
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-position: 0 55rem;
+}
